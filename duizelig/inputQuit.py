@@ -1,7 +1,7 @@
-i = input("Voer iets in: ".lower())
+i = ""
 
 while i != "quit":
-    print(i)
     i = input("Voer iets in: ".lower())
+    print(i)
     if i == "quit":
         break
